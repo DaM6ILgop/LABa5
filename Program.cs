@@ -118,11 +118,9 @@ namespace Table
                         Console.WriteLine(new String('-', 76));
                         Console.WriteLine($"{"|Фильм",-25}|{"Режиссер ",-12}|{"Год выпуска ",-20}|{"Тип",-15}|");
                         Console.WriteLine(new String('-', 76));
-
+                        
                         foreach (Item item in list)
                         {
-
-
                             item.Print();
                             Console.WriteLine(new String('-', 76));
                         }
